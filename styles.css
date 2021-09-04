@@ -6,21 +6,23 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  color: #555;
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: black; */
+}
 /* #d9b1b3 */
 .first-section {
   height: 70vh;
   background-image: url(img/alexander-krivitskiy-tSX6E9UextA-unsplash-min.jpg);
   background-size: cover;
   position: relative;
+  width: 1200px;
 }
-body {
-  font-family: sans-serif;
-  line-height: 1;
-  color: #555;
-  max-width: 1200px;
-  margin: 0 auto;
-  /* background-color: black; */
-}
+
 .top-icon-con {
   display: flex;
   align-items: center;
@@ -91,6 +93,7 @@ body {
 .second-section {
   background-color: #d9b1b3;
   padding: 6rem 10rem 10rem 10rem;
+  width: 1200px;
 }
 .six-pics {
   display: grid;
@@ -169,6 +172,7 @@ body {
   gap: 4rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  width: 1200px;
 }
 .fifth-sec {
   display: flex;
